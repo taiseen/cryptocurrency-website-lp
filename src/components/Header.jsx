@@ -3,7 +3,7 @@ import { Nav, AccountBtns } from '.';
 import logo from '../assets/logo.svg'
 
 
-const Header = () => {
+const Header = ({ setMobileMenu }) => {
 
   return (
     <header
@@ -19,16 +19,20 @@ const Header = () => {
           <img src={logo} alt="" />
         </a>
 
-        {/* by default hide but display at large screen */}
+        {/* by default Hide but Display at large screen */}
         <div className='hidden lg:flex gap-x-[55px]'>
           <Nav />
           <AccountBtns />
         </div>
 
-        {/* by default display but hide at large screen */}
-        <div className='lg:hidden cursor-pointer'>
+        {/* by default Display but Hide at large screen */}
+        <div
+          className='lg:hidden cursor-pointer'
+          onClick={() => setMobileMenu(true)}
+        >
           <CgMenuRight className='text-2xl' />
         </div>
+
       </div>
 
     </header>

@@ -15,4 +15,13 @@
 * Learning context by developing this application:
 
 
+### AOS initialization in React... (at App.js) 
+```
+useEffect(() => {
+    AOS.init({
+      duration: 2500,
+      delay: 400,
+    })
+}, [])
+```
 [.](https://youtu.be/gF_sLUJqJE0)

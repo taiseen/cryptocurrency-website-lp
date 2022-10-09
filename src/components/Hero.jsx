@@ -1,4 +1,4 @@
-import { IoIosArrowDroprightCircle } from 'react-icons/io'
+import { IoIosArrowDroprightCircle } from 'react-icons/io';
 import images from '../assets';
 
 
@@ -14,7 +14,7 @@ const Hero = () => {
 
             {/* badge text */}
             <div
-              className='bg-white/10 p-1 mb-6 rounded-full pl-1 pr-3 max-w-[365px]'
+              className='bg-white/10 p-1 mb-6 rounded-full pl-1 pr-5 max-w-[365px]'
               data-aos='fade-down'
               data-aos-delay='400'
             >
@@ -55,6 +55,7 @@ const Hero = () => {
             >
               Try for free <IoIosArrowDroprightCircle className='text-2xl lg:text-3xl' />
             </button>
+            
           </div>
 
           <div className='flex-1'>
@@ -67,6 +68,7 @@ const Hero = () => {
           </div>
 
         </div>
+
       </div>
     </section>
   );

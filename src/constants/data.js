@@ -1,7 +1,4 @@
-// import images
-import BitcoinImg from './assets/img/bitcon.png';
-import EthereumImg from './assets/img/ethereum.png';
-import LitecoinImg from './assets/img/litecoin.png';
+import images from '../assets';
 
 export const navData = [
   {
@@ -24,22 +21,22 @@ export const navData = [
 
 export const currency = [
   {
-    image: BitcoinImg,
+    image: images.bitcoinLogo,
     name: 'Bitcoin',
     abbr: 'BTC',
     description:
       'Digital currency in which a record of transactions is maintained.',
   },
   {
-    image: EthereumImg,
+    image: images.ethereum,
     name: 'Ethereum',
     abbr: 'ETH',
     description:
       'Blockchain technology to create and run decentralized digital applications.',
   },
   {
-    image: LitecoinImg,
-    name: 'Litecoin',
+    image: images.liteCoin,
+    name: 'LiteCoin',
     abbr: 'LTC',
     description:
       'Cryptocurrency that enables instant payments to anyone in the world.',
