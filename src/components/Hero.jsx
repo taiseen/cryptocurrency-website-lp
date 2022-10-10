@@ -1,7 +1,6 @@
 import { IoIosArrowDroprightCircle } from 'react-icons/io';
 import images from '../assets';
 
-
 const Hero = () => {
 
   return (
@@ -49,7 +48,7 @@ const Hero = () => {
             </p>
 
             <button
-              className='btn gap-x-3 px-5 text-sm lg:h-14 lg:text-base'
+              className='btn gap-x-3 px-5 text-sm h-10 lg:h-14 lg:text-base'
               data-aos='fade-down'
               data-aos-delay='700'
             >

@@ -1,6 +1,6 @@
 > 7 - Oct - 2022
 
-# Cryptocurrency - Landing Page | [Live Link](www)
+# Cryptocurrency - Landing Page | [Live Link](https://crypto-lp.netlify.app)
 
 ## Yarn base dependencies...
 
@@ -24,4 +24,3 @@ useEffect(() => {
     })
 }, [])
 ```
-[.](https://youtu.be/gF_sLUJqJE0)
