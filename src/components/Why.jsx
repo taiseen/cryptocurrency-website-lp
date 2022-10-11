@@ -1,14 +1,16 @@
-import React from 'react';
 import images from '../assets';
 
 const Why = () => {
 
   return (
     <section className='section'>
+
       <div className="container mx-auto">
 
         <div className='flex flex-col items-center lg:flex-row gap-x-8' >
 
+
+          {/* 🟨🟨🟨 Image Data 🟨🟨🟨 */}
           <div
             className='order-2 lg:order-1'
             data-aos='fade-right'
@@ -18,6 +20,7 @@ const Why = () => {
           </div>
 
 
+          {/* 🟨🟨🟨 Test Data 🟨🟨🟨 */}
           <div
             className='order-1 lg:order-2 max-w-[480px]'
             data-aos='fade-left'
@@ -27,10 +30,11 @@ const Why = () => {
             <p className='section-subtitle'>Experience the next generation cryptocurrency platform. No financial border, extra feeds, & fake reviews</p>
             <button className="btn px-6">Learn more</button>
           </div>
-          
+
         </div>
 
       </div>
+
     </section>
   );
 };

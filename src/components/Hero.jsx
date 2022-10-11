@@ -57,6 +57,7 @@ const Hero = () => {
             
           </div>
 
+
           <div className='flex-1'>
             <img
               alt="banner img..."

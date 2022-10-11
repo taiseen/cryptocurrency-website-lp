@@ -1,7 +1,6 @@
 import { navData } from '../constants/data';
 import { CgClose } from 'react-icons/cg';
 
-
 const NavMobile = ({ setMobileMenu }) => {
 
   return (

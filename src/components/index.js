@@ -2,6 +2,7 @@ export { default as FeaturesSection1 } from './FeaturesSection1';
 export { default as FeaturesSection2 } from './FeaturesSection2';
 export { default as FeaturesSection3 } from './FeaturesSection3';
 export { default as NewsletterForm } from './NewsletterForm';
+export { default as CurrencyItem } from './CurrencyItem';
 export { default as AccountBtns } from './AccountBtns';
 export { default as Newsletter } from './Newsletter';
 export { default as Calculate } from './Calculate';

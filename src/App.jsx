@@ -1,4 +1,4 @@
-import { Calculate, Header, Hero, NavMobile, Stats, Why } from './components';
+import { Calculate, Features, Header, Hero, NavMobile, Newsletter, Stats, Trade, Why } from './components';
 import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -36,6 +36,12 @@ const App = () => {
 
       <Calculate />
 
+      <Trade />
+
+      <Features />
+
+      <Newsletter />
+      
     </main>
   );
 };

@@ -1,6 +1,5 @@
 import { navData } from '../constants/data';
 
-
 const Nav = () => {
 
   return (

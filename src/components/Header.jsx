@@ -19,13 +19,13 @@ const Header = ({ setMobileMenu }) => {
           <img src={logo} alt="" />
         </a>
 
-        {/* by default Hide but Display at large screen */}
+        {/* by default Hide 🟡 but Display at large screen */}
         <div className='hidden lg:flex gap-x-[55px]'>
           <Nav />
           <AccountBtns />
         </div>
 
-        {/* by default Display but Hide at large screen */}
+        {/* by default Display 🟡 but Hide at large screen */}
         <div
           className='lg:hidden cursor-pointer'
           onClick={() => setMobileMenu(true)}
