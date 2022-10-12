@@ -1,6 +1,5 @@
 import { HiChartBar, HiUser, HiGlobe } from 'react-icons/hi';
 
-
 const Stats = () => {
 
   return (

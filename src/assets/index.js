@@ -19,29 +19,31 @@ import bitcoin from '../assets/bitcoin.png';
 import heroBg from '../assets/hero-bg.png';
 import whyImg from '../assets/why-img.png';
 import visa from '../assets/visa.png';
+import logo from '../assets/logo.svg';
 
 const images = {
+    logo,
+    visa,
+    whyImg,
+    heroBg,
     bitcoin,
-    bitcoinLogo,
+    heroImg,
     ethereum,
+    liteCoin,
+    whyModel1,
+    whyModel2,
+    whyRibbon,
+    mastercard,
+    bitcoinLogo,
+    heroRibbon1,
+    heroRibbon2,
     feature1img,
     feature2img,
     feature3img,
-    featuresCircle1,
-    featuresCircle2,
-    heroBg,
-    heroImg,
-    heroRibbon1,
-    heroRibbon2,
-    liteCoin,
-    mastercard,
     newSletterBg,
     newSletterBox,
-    visa,
-    whyImg,
-    whyModel1,
-    whyModel2,
-    whyRibbon
+    featuresCircle1,
+    featuresCircle2,
 }
 
 export default images;

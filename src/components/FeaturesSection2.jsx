@@ -31,6 +31,7 @@ const FeaturesSection2 = () => {
           </div>
 
         </div>
+        
       </div>
 
     </section>

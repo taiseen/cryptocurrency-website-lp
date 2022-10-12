@@ -24,6 +24,7 @@ const Features = () => {
         <FeaturesSection3 />
 
       </div>
+      
     </section>
   );
 };

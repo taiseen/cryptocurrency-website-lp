@@ -29,6 +29,7 @@ const Calculate = () => {
         <CalcForm />
 
       </div>
+      
     </section>
   );
 };

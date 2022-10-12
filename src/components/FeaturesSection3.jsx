@@ -33,6 +33,7 @@ const FeaturesSection3 = () => {
         </div>
 
       </div>
+      
     </section>
   );
 };
